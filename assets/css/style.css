@@ -1,0 +1,52 @@
+/******************************************************
+**********************CSS STYLES***********************
+******************************************************/
+
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+/* header section styles */
+  
+#Hero-Section {
+    background-image: url("../img/bg-page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+  
+p.p-header{
+    color: #ffc107;
+}
+
+/* acerca de mi section styles */
+
+
+i.fa.fa-3x.my-3, i.fab.fa-3x.my-3{
+    color: #ffc107;
+}
+
+  /* Mis trabajos */
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+ 
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
